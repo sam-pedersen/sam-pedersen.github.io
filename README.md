@@ -1,1 +1,1 @@
-# sam-pedersen.github.io
+# sam-pedersen.github.io/blog/letsgo
