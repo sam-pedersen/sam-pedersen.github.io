@@ -1,20 +1,22 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #d9b38c;
+  background-color: #e0f7fa; /* Light blue background */
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  color: #01579b; /* Dark blue text */
 }
 
 .container {
-  background-color: #f4e3c3;
+  background-color: #ffffff; /* White background for container */
   width: 80%;
   max-width: 1000px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners */
 }
 
 header {
@@ -24,6 +26,7 @@ header {
 header h1 {
   font-size: 2.5em;
   margin: 0;
+  color: #0277bd; /* Medium blue header */
 }
 
 header h1 span {
@@ -37,19 +40,22 @@ main {
 
 .menu {
   width: 25%;
-  background-color: #f2e0c2;
+  background-color: #e1f5fe; /* Lighter blue for menu */
   padding: 20px;
   margin-right: 20px;
+  border-radius: 10px; /* Rounded corners */
 }
 
 .menu h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  color: #01579b; /* Dark blue for menu headings */
 }
 
 .menu .section h3 {
   font-size: 1.2em;
   margin-bottom: 5px;
+  color: #0288d1; /* Medium blue for section headings */
 }
 
 .menu ul {
@@ -60,11 +66,12 @@ main {
 .menu ul li {
   margin: 5px 0;
   font-size: 1em;
+  color: #01579b; /* Dark blue for list items */
 }
 
 .menu ul li a {
   text-decoration: none;
-  color: #6b3b8c;
+  color: #0288d1; /* Medium blue for links */
 }
 
 .menu ul li a:hover {
@@ -78,14 +85,17 @@ main {
 .content p {
   font-size: 1.1em;
   line-height: 1.5em;
+  color: #01579b; /* Dark blue text */
 }
 
 .content strong {
   font-size: 1.2em;
+  color: #0277bd; /* Medium blue for strong text */
 }
 
 footer {
   text-align: center;
   margin-top: 20px;
   font-size: 0.9em;
+  color: #01579b; /* Dark blue for footer text */
 }
