@@ -114,8 +114,9 @@ main {
 }
 
 .recipe-card img {
-  width: 100%;
+  width: auto;
   height: auto;
+  object-fit: contain;
 }
 
 .recipe-card h3 {
