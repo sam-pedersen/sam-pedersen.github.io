@@ -100,3 +100,19 @@ footer {
   font-size: 0.9em;
   color: #01579b;
 }
+footer button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+footer button:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
