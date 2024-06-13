@@ -109,14 +109,11 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-
-  object-fit: contain;
 }
 
 .recipe-card img {
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  width: fit-content;
+  height: fit-content;
 }
 
 .recipe-card h3 {
