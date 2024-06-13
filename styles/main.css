@@ -112,8 +112,8 @@ main {
 }
 
 .recipe-card img {
-  width: fit-content;
-  height: fit-content;
+  max-width: 100%;
+  padding: auto;
 }
 
 .recipe-card h3 {
