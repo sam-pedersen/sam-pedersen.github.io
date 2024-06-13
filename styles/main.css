@@ -17,9 +17,6 @@ body {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 header {
@@ -118,7 +115,7 @@ footer button {
 }
 
 footer button:hover {
-  background-color: #ffffff;
+  background-color: #0277bd;
   color: #333333;
 }
 
