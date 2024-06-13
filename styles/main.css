@@ -109,6 +109,8 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  object-fit: contain;
 }
 
 .recipe-card img {
