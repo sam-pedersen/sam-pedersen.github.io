@@ -103,7 +103,7 @@ main {
 .recipe-card {
   background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: calc(50% - 20px);
@@ -211,7 +211,7 @@ footer p {
   max-width: 800px;
   width: 90%;
   text-align: center;
-  margin: 0%;
+  margin: 10%;
 }
 
 .blog-post h1 {
