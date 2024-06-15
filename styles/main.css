@@ -202,3 +202,44 @@ footer p {
     width: 100%;
   }
 }
+
+.containerblog {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+}
+
+.blog-post h1 {
+  font-size: 2.5em;
+  color: #002366;
+  margin-bottom: 20px;
+}
+
+.blog-post .date {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.blog-post .intro {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.blog-post p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.blog-post .signature {
+  font-size: 1.5em;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #002366;
+}
