@@ -1,2 +1,2 @@
-# Https://sam-pedersen.github.io/blog/letsgo.html
+# Https://sam-pedersen.github.io/blog/index.html
 
