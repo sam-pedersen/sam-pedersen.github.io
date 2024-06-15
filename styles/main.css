@@ -110,7 +110,6 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 10px;
 }
 
 .recipe-card img {
@@ -212,6 +211,7 @@ footer p {
   max-width: 800px;
   width: 90%;
   text-align: center;
+  margin: 0%;
 }
 
 .blog-post h1 {
