@@ -267,9 +267,22 @@ footer p {
   border-radius: 10px;
 }
 
-pre code {
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
+pre {
+  background-color: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  color: #333;
+  overflow-x: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  display: inline;
+  color: #c7254e;
 }
