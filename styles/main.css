@@ -252,3 +252,17 @@ footer p {
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
