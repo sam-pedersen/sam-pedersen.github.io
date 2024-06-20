@@ -268,7 +268,7 @@ footer p {
 }
 
 pre {
-  background-color: #f4f4f9;
+  background-color: black;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
@@ -284,5 +284,5 @@ pre code {
   padding: 0;
   border: none;
   display: inline;
-  color: #c7254e;
+  color: whitesmoke;
 }
