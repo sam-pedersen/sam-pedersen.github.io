@@ -27,12 +27,8 @@ body:hover {
   transition: transform 0.3s;
 }
 
-.container:hover {
-  transform: scale(1.02);
-}
-
 header {
-  background-color: #002366;
+  background-color: #064bcc;
   color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -45,7 +41,7 @@ header h1 {
 }
 
 .nav-buttons {
-  background-color: #002366;
+  background-color: #064bcc;
   display: flex;
   justify-content: center;
   padding: 10px 0;
@@ -85,7 +81,7 @@ main {
 }
 
 .menu button {
-  background-color: #002366;
+  background-color: #064bcc;
   color: #ffffff;
   border: none;
   padding: 10px;
@@ -136,7 +132,7 @@ main {
 }
 
 footer {
-  background-color: #002366;
+  background-color: #064bcc;
   color: #ffffff;
   text-align: center;
   padding: 20px;
@@ -163,7 +159,7 @@ footer button {
 
 footer button:hover {
   background-color: #ffffff;
-  color: #002366;
+  color: #064bcc;
   transform: scale(1.1);
 }
 
@@ -236,7 +232,7 @@ footer p {
 
 .blog-post h1 {
   font-size: 2.5em;
-  color: #002366;
+  color: #064bcc;
   margin-bottom: 20px;
 }
 
