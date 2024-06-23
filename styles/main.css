@@ -32,7 +32,8 @@ header {
   color: #ffffff;
   padding: 20px;
   text-align: center;
-  border-radius: 10px 10px 0 0;
+  border-bottom-left-radius: 15px; /* Rounded bottom left corner */
+  border-bottom-right-radius: 15px; /* Rounded bottom right corner */
 }
 
 header h1 {
@@ -48,12 +49,15 @@ header h1 {
 }
 
 .nav-buttons a {
-  color: #064bcc;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  display: block;
-  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
 }
 
 .nav-buttons a:hover {
@@ -135,9 +139,12 @@ footer {
   background-color: #064bcc;
   color: #ffffff;
   text-align: center;
-  padding: 20px;
-  border-radius: 0 0 10px 10px;
-  margin-top: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  border-bottom-left-radius: 15px; /* Rounded bottom left corner */
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px; /* Rounded bottom left corner */
+  border-top-right-radius: 15px;
 }
 
 footer h2 {
