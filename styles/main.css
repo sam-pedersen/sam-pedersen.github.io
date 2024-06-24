@@ -261,3 +261,72 @@ pre code {
   display: inline;
   color: whitesmoke;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+.grid-item {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wellbeing-plan {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+  margin: 20px auto;
+  transition: transform 0.3s;
+}
+
+.wellbeing-plan h2 {
+  text-align: center;
+  color: #064bcc;
+  margin-bottom: 20px;
+}
+
+.wellbeing-plan table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.wellbeing-plan th,
+.wellbeing-plan td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.wellbeing-plan th {
+  background-color: #f2c94c;
+  color: #333;
+  font-weight: bold;
+}
+
+.wellbeing-plan td {
+  background-color: #fff3cd;
+}
+
+.wellbeing-plan ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .wellbeing-plan table {
+    display: block;
+    overflow-x: auto;
+  }
+}
