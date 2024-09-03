@@ -78,7 +78,7 @@ main {
 
 .recipe-card {
   background-color: #ffffff;
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -86,6 +86,7 @@ main {
   flex-direction: column;
   text-align: center;
   transition: transform 0.3s;
+  width: 300px;
 }
 
 .recipe-card:hover {
